@@ -137,30 +137,51 @@ h1, h2, h3, h4, h5 {
 
  .programs {
 	 display: flex;
-	 
-	 
-	
+	 margin: 1%;
+	 flex-wrap: wrap;
+	 flex-direction: row;
+	 justify-content: space-between;
  }
 
  .program-description {
 	 display: flex;
+	 width: 500px;
+	 height: 200px;
 	 flex-wrap: wrap;
 	 padding: 10px;
 	 background: lightgray;
-	 border: 5px black;
+	 margin: 1%;
+	 
 	 
 	 
  }
 
+
  .services {
-	 padding-bottom: 20px;
+	 display: flex;
+	 flex-direction: column;
+	 padding: 20px;
  }
 
  .facts-and-img {
 	 display: flex;
 	 padding-top: 20px;
+	 padding-bottom: 30px;
+	 justify-content: space-around;
  }
+
+ .facts {
+	 width: 500px;
+ }
+
+a p {
+	border: 1px black;
+}
 
  .footer {
 	 text-align: center;
+	 color: gray;
+	 padding: 20px;
  }
+
+ 
