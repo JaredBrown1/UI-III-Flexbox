@@ -65,9 +65,15 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-a {
+.section1 a {
 	color: gray;
 	padding: 50px;
+}
+
+.section2a a {
+	color: gray;
+	font-size: 30px;
+	border: 2px gray;
 }
 
 .section1 {
@@ -76,3 +82,40 @@ a {
 	padding-top: 50px;
 }
 
+.section2 {
+	display: flex;
+	justify-content: space-around;
+}
+ .section2a {
+	 padding-top: 30px;
+	 font-size: 75px;
+
+ }
+ .section2b {
+	 border: 2px gray;
+ }
+
+ .section3 {
+
+	 padding: 20px;
+	 display: flex
+ }
+
+ .middle-img {
+	 display: flex;
+	 justify-content: space-around;
+ }
+
+ .section4 {
+	 display: flex;
+	 padding: 20px; 
+ }
+
+ .section5 {
+	 padding: 20px;
+	 border-top: 2px black;
+ }
+
+ footer {
+	 text-align: center;
+ }
