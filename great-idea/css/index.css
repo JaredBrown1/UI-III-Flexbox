@@ -134,3 +134,33 @@ h1, h2, h3, h4, h5 {
 	 display: flex;
 	 justify-content: space-around;
  }
+
+ .programs {
+	 display: flex;
+	 
+	 
+	
+ }
+
+ .program-description {
+	 display: flex;
+	 flex-wrap: wrap;
+	 padding: 10px;
+	 background: lightgray;
+	 border: 5px black;
+	 
+	 
+ }
+
+ .services {
+	 padding-bottom: 20px;
+ }
+
+ .facts-and-img {
+	 display: flex;
+	 padding-top: 20px;
+ }
+
+ .footer {
+	 text-align: center;
+ }
