@@ -113,9 +113,24 @@ h1, h2, h3, h4, h5 {
 
  .section5 {
 	 padding: 20px;
-	 border-top: 2px black;
  }
 
  footer {
 	 text-align: center;
+ }
+
+ nav a{
+	 color: gray;
+ }
+
+ .nav-bar {
+	 padding-top: 30px;
+	 padding-bottom: 20px;
+	 display: flex;
+	 justify-content: space-around;
+ }
+
+ .img2 {
+	 display: flex;
+	 justify-content: space-around;
  }
