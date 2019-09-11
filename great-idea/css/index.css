@@ -141,6 +141,7 @@ h1, h2, h3, h4, h5 {
 	 flex-wrap: wrap;
 	 flex-direction: row;
 	 justify-content: space-between;
+	 border-bottom: solid 1px;
  }
 
  .program-description {
@@ -151,9 +152,16 @@ h1, h2, h3, h4, h5 {
 	 padding: 10px;
 	 background: lightgray;
 	 margin: 1%;
-	 
-	 
-	 
+	 border: solid 1px;	 
+
+ }
+
+ .learn-more {
+	 border: solid 1px;
+	 width: 100px;
+	 background-color: white;
+	 padding-top: 6px;
+	 text-align: center;
  }
 
 
@@ -161,6 +169,7 @@ h1, h2, h3, h4, h5 {
 	 display: flex;
 	 flex-direction: column;
 	 padding: 20px;
+	 border-bottom: solid 1px;
  }
 
  .facts-and-img {
@@ -184,4 +193,5 @@ a p {
 	 padding: 20px;
  }
 
+ 
  
