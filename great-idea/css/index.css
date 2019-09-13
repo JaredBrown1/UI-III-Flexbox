@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5 {
 	 padding: 10px;
 	 background: lightgray;
 	 margin: 1%;
-	 border: solid 1px;	 
+	 border: solid 2px;	 
 
  }
 
@@ -192,6 +192,10 @@ a p {
 	 text-align: center;
 	 color: gray;
 	 padding: 20px;
+ }
+
+ ul {
+	 list-style-type: circle; 
  }
 
  
